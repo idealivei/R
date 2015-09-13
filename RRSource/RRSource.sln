@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cache", "Cache\Cache.csproj", "{FA25E672-9E97-494A-BB7C-70C177B6C1FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ref", "Ref\Ref.csproj", "{DFD571F3-397E-46CE-931F-8056DBADC80D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysFrame", "SysFrame\SysFrame.csproj", "{48508F72-38CC-46AE-B35F-2A8AB8F9E070}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sys", "Sys", "{8533D7C3-2129-4866-81D8-2986E579ADF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{45DB9CB7-4BE6-40E4-9AFD-9A3706DB7B0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bll", "Bll", "{96C0BF3B-F998-4D19-9E49-233F560FFE41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA25E672-9E97-494A-BB7C-70C177B6C1FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA25E672-9E97-494A-BB7C-70C177B6C1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA25E672-9E97-494A-BB7C-70C177B6C1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA25E672-9E97-494A-BB7C-70C177B6C1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFD571F3-397E-46CE-931F-8056DBADC80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD571F3-397E-46CE-931F-8056DBADC80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD571F3-397E-46CE-931F-8056DBADC80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD571F3-397E-46CE-931F-8056DBADC80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48508F72-38CC-46AE-B35F-2A8AB8F9E070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48508F72-38CC-46AE-B35F-2A8AB8F9E070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48508F72-38CC-46AE-B35F-2A8AB8F9E070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48508F72-38CC-46AE-B35F-2A8AB8F9E070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA25E672-9E97-494A-BB7C-70C177B6C1FF} = {8533D7C3-2129-4866-81D8-2986E579ADF1}
+		{DFD571F3-397E-46CE-931F-8056DBADC80D} = {8533D7C3-2129-4866-81D8-2986E579ADF1}
+		{48508F72-38CC-46AE-B35F-2A8AB8F9E070} = {8533D7C3-2129-4866-81D8-2986E579ADF1}
+	EndGlobalSection
+EndGlobal
